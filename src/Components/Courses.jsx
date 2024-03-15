@@ -8,7 +8,7 @@ function Courses() {
             <div className="w-full md:w-1/2 md:order-2 text-left animate-slide-in-right">
                 <h1 className=" text-4xl md:text-6xl underline font-medium text-center mb-12">My Course</h1>
                 <a href="/">
-                    <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-14 bg-gray-100 rounded-md py-8 md:py-16 md:px-4">
+                    <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-14 bg-gray-100 rounded-md py-8 px-4 md:py-16 md:px-4">
                     <div className="bg-white rounded-md flex justify-center items-center flex-col border-2  border-solid border-gray-300 p-4 w-full md:w-1/2 hover:scale-105 transition-transform duration-1000 cursor-pointer">
                         <img className="w-full rounded-md" src="https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                         <div className="mt-4">
