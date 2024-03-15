@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div className="[background-color:#e0e0da] flex flex-col items-center p-10 border-b-4 md:flex-row">
       <div className="flex justify-center text-left animate-slide-in-left mb-8 md:mb-0">
-        <img className="rounded-md w-[80%] md:w-auto" src="https://images.pexels.com/photos/7935689/pexels-photo-7935689.jpeg?auto=compress&cs=tinysrgb&w=600" alt="profilePhoto" />
+        <img className="rounded-md w-[80%] md:w-[80%]" src="https://images.pexels.com/photos/7935689/pexels-photo-7935689.jpeg?auto=compress&cs=tinysrgb&w=600" alt="profilePhoto" />
       </div>
       <div className="w-full md:w-[50%] h-auto text-left animate-slide-in-right">
         <p className="text-2xl md:text-4xl font-serif">
