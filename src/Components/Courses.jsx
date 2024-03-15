@@ -2,12 +2,12 @@
 function Courses() {
     return (
         <div className="w-[100%] flex justify-center items-center flex-wrap p-10 border-b-4">
-            <div className="text-5xl p-12">
+            <div className="text-5xl p-12 text-left animate-slide-in-left">
                 Now, as I step back from the frontline, my mission remains unchanged: to impart the wisdom gained through years of experience to the next generation of truth-seekers. <span className="text-blue-700">Join me on this journey</span> of discovery, as we unlock the secrets of journalism together.
             </div>
             <div>
                 <h1 className="text-6xl underline font-medium text-center mb-12">My Course</h1>
-                <div className="flex h-auto justify-center items-center  gap-14 bg-gray-100 rounded-md py-16">
+                <a href="/"><div className="flex h-auto justify-center items-center  gap-14 bg-gray-100 rounded-md py-16">
                     <div className="bg-white rounded-md flex justify-center items-center flex-col border-2 gap-2 border-solid border-gray-300 p-4 w-[30%] h-[428px] hover:scale-[1.04] transition-[1s] cursor-pointer">
                         <img className="w-[708px] rounded-md" src="https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
                         <div>
@@ -30,7 +30,7 @@ function Courses() {
                             <li className="text-2xl"><span className="text-[#001f3f] font-semibold underline">Investment in Your Future:</span> <span className="text-gray-600">Invest in your career growth and impact as a journalist.</span></li>
                         </ul>
                     </div>
-                </div>
+                </div></a>
             </div>
         </div>
     )
