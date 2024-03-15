@@ -2,7 +2,7 @@
 function Courses() {
     return (
         <div className="w-[100%] flex flex-col md:flex-row justify-center items-center p-10 border-b-4">
-            <div className="text-5xl p-12 text-left animate-slide-in-left w-full md:w-1/2 md:order-1">
+            <div className="text-2xl md:text-5xl p-12 text-left animate-slide-in-left w-full md:w-1/2 md:order-1">
                 Now, as I step back from the frontline, my mission remains unchanged: to impart the wisdom gained through years of experience to the next generation of truth-seekers. <span className="text-blue-700">Join me on this journey</span> of discovery, as we unlock the secrets of journalism together.
             </div>
             <div className="w-full md:w-1/2 md:order-2">
