@@ -8,11 +8,9 @@ function Navbar() {
         </div>
         <div>
             <ul  className="flex gap-4 justify-center items-center">
-                <li>Projects</li>
                 <li>Photography</li>
                 <li>Books</li>
                 <li>Texts</li>
-                <li>Blogs</li>
             </ul>
         </div>
     </div>
